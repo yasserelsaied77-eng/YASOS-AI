@@ -1,0 +1,18 @@
+version: "1.0"
+description: "YASOS Executive Meta Model - The absolute truth governing the Executive OS."
+entities:
+  Capability:
+    definition: "An operational capability that the executive system can perform or manage."
+    purpose: "To encapsulate knowledge, policies, processes, and decision models into a runnable unit."
+    lifecycle: [DRAFT, ACTIVE, DEPRECATED]
+  Knowledge:
+    definition: "An atomic piece of verified information."
+    purpose: "To provide context and facts to the reasoning engine."
+  Evidence:
+    definition: "A verified proof backing a Knowledge asset or Decision."
+  Policy:
+    definition: "A strict rule governing behavior and constraints within a Capability."
+  Process:
+    definition: "A defined sequence of steps to execute an action."
+  DecisionSession:
+    definition: "A time-bound context for evaluating alternatives, simulating impact, and making an executive decision."

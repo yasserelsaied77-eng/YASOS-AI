@@ -1,0 +1,9 @@
+package com.example.core.graph.model
+
+enum class NodeType {
+    INBOX, CONTEXT, DECISION, KNOWLEDGE, PROJECT, TASK, LESSON, STRATEGY, PERSON, ORGANIZATION, LOCATION
+}
+
+enum class RelationType {
+    CREATED_FROM, BELONGS_TO, LEARNED_FROM, SUPPORTS, RELATED_TO, ASSIGNED_TO, MENTIONS
+}
